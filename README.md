@@ -1,10 +1,10 @@
-##SOBRE MI APP
+## SOBRE MI APP ##
 
 La aplicación desarrollada en este proyecto se trata de una aplicación para llevar el control de los Pokemon capturados, así como una breve información de ellos. Se puede usar como complemento a otros juegos de Pokemon. 
 
 Por ahora, solo contiene a los pokemon de la primera generación(151). Los datos de los Pokemon se han obtenido desde la API https://pokeapi.co/
 
-##CARACTERÍSTICAS PRINCIPALES
+### CARACTERÍSTICAS PRINCIPALES ###
 
 La aplicación cuenta con un proceso de autenticación, mediante el que puedes registrarte para guardar tus pokemon capturados en la base de datos y recuperarlos desde cualquier dispositivo. Se puede registrar con email y con Google.
 
@@ -14,20 +14,21 @@ Una vez iniciada la sesión, podemos ver un menú de navegación en la parte baj
   
 Si tenemos la opción activada, podemos eliminar Pokemon capturados deslizandolos hacia la izquierda. Si pulsamos sobre alguno de los Pokemon, se nos mostrará una pantalla información sobre él.
 
-![Screenshot_20250122_205818](https://github.com/user-attachments/assets/595fbfb9-6c62-4b2d-8df3-fd4589196e03)
+<img src="https://github.com/user-attachments/assets/595fbfb9-6c62-4b2d-8df3-fd4589196e03" width="33%" height="33%">
 
-![Screenshot_20250122_205919](https://github.com/user-attachments/assets/13f61769-9ee6-4729-ad2e-3042d1f28f44)
+<img src="https://github.com/user-attachments/assets/13f61769-9ee6-4729-ad2e-3042d1f28f44" width="33%" height="33%">
+
 
 - *Pokedex*: en esta pantalla se encuentran listados los 151 Pokemons. Al seleccionarlos, se guardarán como capturados y aparecerán marcados en oscuro:
   
-![Screenshot_20250122_205851](https://github.com/user-attachments/assets/38871de1-8c25-42c2-bbb5-f2960c1b7a62)
-
+  <img src="https://github.com/user-attachments/assets/38871de1-8c25-42c2-bbb5-f2960c1b7a62" width="33%" height="33%">
+  
 - *Ajustes*: podemos modificar algunas preferencias como el idioma o la opción de eliminar Pokemon capturados. La opción "Acerca de" muestra información sobre la aplicación.
   
-![Screenshot_20250122_205900](https://github.com/user-attachments/assets/5219e28c-16dd-468f-a78f-42943a587e23)
+<img src="https://github.com/user-attachments/assets/5219e28c-16dd-468f-a78f-42943a587e23" width="33%" height="33%">
 
 
-##TECNOLOGÍAS UTILIZADAS
+### TECNOLOGÍAS UTILIZADAS ###
 
 - *Retrofit*: herramienta para obtener información desde APIs externas a través de internet. Usada para obtener la información de los Pokemon.
 - *Firebase Authentication*: para el proceso de autenticación de usuario en la aplicación.
@@ -36,7 +37,7 @@ Si tenemos la opción activada, podemos eliminar Pokemon capturados deslizandolo
 - *Picasso*: utilizado para mostrar las imágenes de los Pokemon desde una URL
 - *Navigation Fragment*: para el control de fragmentos dentro de la actividad principal
 
-##DEPENDENCIAS NECESARIAS
+### DEPENDENCIAS NECESARIAS ###
 ~~~
 ''
 //Recycler View
@@ -65,12 +66,12 @@ implementation("com.squareup.picasso:picasso:2.5.0")
 ''
 ~~~
 
-##CÓMO CLONAR MI PROYECTO
+### CÓMO CLONAR MI PROYECTO ###
 - 1º Pulsa el botón "<>CODE" y copia el URL en la modalidad que te interese
 - 2º Abre Git Bash y posicionate en el directorio donde te interese clonar el poyecto
 - 3º Escribe el comando ''git clone'' seguido de la URL que has copiado en el primer paso. Pulsar "Enter" y se creará el clon del proyecto.
 
-## CONCLUSIONES DE LA DESARROLLADORA SOBRE EL PROYECTO
+### CONCLUSIONES DE LA DESARROLLADORA SOBRE EL PROYECTO ###
 
 Este proyecto ha sido realizado con mucha ilusión ya que su temática es de una de mis sagas de juegos favorita. He intentado darle un estilo que se asemejara a una Pokedex Vintage, con pantalla verde.
 
