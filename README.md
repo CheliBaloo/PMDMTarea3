@@ -14,7 +14,7 @@ Una vez iniciada la sesión, podemos ver un menú de navegación en la parte baj
   
 Si tenemos la opción activada, podemos eliminar Pokemon capturados deslizandolos hacia la izquierda. Si pulsamos sobre alguno de los Pokemon, se nos mostrará una pantalla información sobre él.
 
-![Screenshot_20250122_205818](https://github.com/user-attachments/assets/595fbfb9-6c62-4b2d-8df3-fd4589196e03)
+![Screenshot_20250122_205818](https://github.com/user-attachments/assets/595fbfb9-6c62-4b2d-8df3-fd4589196e03 =100px)
 
 ![Screenshot_20250122_205919](https://github.com/user-attachments/assets/13f61769-9ee6-4729-ad2e-3042d1f28f44)
 
