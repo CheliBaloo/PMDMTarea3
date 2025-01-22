@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/catchsFragment">
+
+    <fragment
+        android:id="@+id/catchsFragment"
+        android:name="pmdm.clopez.pmdmtarea3.CatchsFragment"
+        android:label="fragment_catchs"
+        tools:layout="@layout/fragment_catchs" />
+    <fragment
+        android:id="@+id/pokedexFragment"
+        android:name="pmdm.clopez.pmdmtarea3.PokedexFragment"
+        android:label="fragment_pokedex"
+        tools:layout="@layout/fragment_pokedex" />
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="pmdm.clopez.pmdmtarea3.PreferencesFragment"
+        android:label="fragment_preferences"
+        tools:layout="@layout/fragment_preferences" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="pmdm.clopez.pmdmtarea3.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>

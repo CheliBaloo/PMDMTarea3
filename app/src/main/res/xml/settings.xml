@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:title="@string/language"
+        android:key="language"
+        android:defaultValue="spanish"
+        android:entries="@array/lang_entries"
+        android:entryValues="@array/lang_values"
+        app:useSimpleSummaryProvider = "true"/>
+
+    <SwitchPreferenceCompat android:title="@string/delete_option"
+        android:key="delete_option"
+        android:summary="@string/delete_summary"
+        android:defaultValue="false"/>
+
+    <Preference android:title="@string/about"
+        android:key="about"
+        android:summary="@string/about_summary"/>
+
+    <Preference android:title="@string/logout"
+        android:key="logout"/>
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PMDMTarea3</string>
+    <string name="info_title">Detalles del pokemon</string>
+
+
+    <string name="language">Idioma</string>
+    <string name="spanish">Español</string>
+    <string name="english">Inglés</string>
+    <string name="delete_option">Opción de eliminación</string>
+    <string name="delete_summary">Activar/Desactivar la opción de eliminación de pokemon capturados</string>
+    <string name="about">Acerca de</string>
+    <string name="about_summary">Información de la app</string>
+    <string name="info_about">App desarrollada por Consuelo López Prieto. \nVersión 1.0</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar Pokemon</string>
+    <string name="ifSure">¿Estás seguro que quieres eliminar este Pokemon?</string>
+    <string name="info_height">ALTURA: </string>
+    <string name="info_weight">PESO: </string>
+    <string name="catched">Pokemon capturado</string>
+    <string name="no_catched">El pokemon ya ha sido capturado</string>
+    <string name="error_notsaved">ERROR: No se ha podido guardar.</string>
+    <string name="logout_ask">¿Quieres cerrar tu sesión?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="closed_session">Has cerrado tu sesión</string>
+
+    <string name="mypokemon">Mis pokemon</string>
+    <string name="pokedex" translatable="false">Pokedex</string>
+    <string name="settings">Ajustes</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PMDMTarea3</string>
+    <string name="info_title">Pokemon Details</string>
+    <string name="language">Language</string>
+    <string name="spanish">Spanish</string>
+    <string name="english">English</string>
+    <string name="delete_option">Deleting Option</string>
+    <string name="delete_summary">To active/desactive deleting option</string>
+    <string name="about">About</string>
+    <string name="about_summary">App Information</string>
+    <string name="info_about">App developed by Consuelo López Prieto \nVersion 1.0</string>
+    <string name="logout">Log Out</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete Pokemon</string>
+    <string name="ifSure">¿Are you sure that you want to delete that Pokemon?</string>
+    <string name="info_weight">"WEIGHT: "</string>
+    <string name="catched">Pokemon catched</string>
+    <string name="error_notsaved">"ERROR: impossible to "</string>
+    <string name="logout_ask">Do you want to close your session?</string>
+    <string name="no">No</string>
+    <string name="closed_session">You\'ve logged out</string>
+    <string name="mypokemon">My pokemon</string>
+    <string name="settings">Settings</string>
+    <string name="info_height">"HEIGHT: "</string>
+    <string name="no_catched">The pokemon is already catched</string>
+    <string name="si">Yes</string>
+</resources>

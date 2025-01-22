@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="pokemon"
+            type="pmdm.clopez.pmdmtarea3.Pokemon" />
+    </data>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/cardView"
+        app:cardElevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp">
+            <ImageView
+                android:id="@+id/poke_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pokeball"/>
+            <TextView
+                android:id="@+id/poke_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pokedex"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/poke_classic" />
+            <TextView
+                android:id="@+id/poke_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pokedex"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poke_classic"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

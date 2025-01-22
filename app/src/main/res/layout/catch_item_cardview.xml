@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="pokemon"
+            type="pmdm.clopez.pmdmtarea3.Pokemon" />
+    </data>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/catch_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/cardView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/catch_poke_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pokeball"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp">
+
+                <TextView
+                    android:id="@+id/catch_poke_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pokedex"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poke_classic"
+                    android:textSize="20sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="start">
+                    <ImageView
+                        android:id="@+id/catch_type1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"/>
+                    <ImageView
+                        android:id="@+id/catch_type2"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

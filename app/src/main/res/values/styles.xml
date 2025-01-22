@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="general">
+        <item name="android:background">@color/screen</item>
+    </style>
+    <style name="catchs">
+        <item name="android:background">@color/screen_dark</item>
+    </style>
+    <style name="info">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="fontFamily">@font/poke_classic</item>
+    </style>
+    <style name="cardView">
+        <item name="cardBackgroundColor">@color/screen</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+</resources>

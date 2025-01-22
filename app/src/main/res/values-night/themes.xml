@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PMDMTarea3" parent="Theme.Material3.DayNight">
+       <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

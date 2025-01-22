@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PMDMTarea3" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:windowBackground">@color/screen</item>
+        <item name="android:colorAccent">@color/red</item>
+        <item name="android:textColor">@color/black</item>
+
+        <!-- SPLASH SCREEN para v>=12-->
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@mipmap/ic_launcher_round</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">3000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@color/red</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/red</item>
+    </style>
+
+
+    <style name="Theme.PMDMTarea3" parent="Base.Theme.PMDMTarea3" />
+</resources>
